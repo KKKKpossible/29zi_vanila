@@ -17,20 +17,28 @@ typedef struct
 
 bool ledInit(void)
 {
+    bool ret = true;
 
+    return ret;
 }
 
 bool ledOn(uint8_t ch)
 {
+    bool ret = true;
 
+    return ret;
 }
 
 bool ledOff(uint8_t ch)
 {
+    bool ret = true;
 
+    return ret;
 }
 
 bool ledToggle(uint8_t ch)
 {
+    bool ret = true;
 
+    return ret;
 }

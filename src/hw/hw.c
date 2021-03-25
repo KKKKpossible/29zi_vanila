@@ -30,8 +30,8 @@ bool hwInit(void)
     bspInit();
     gpioInit();
 
-    uartInit();
     usbInit();
+    uartInit();
 
     return ret;
 }
